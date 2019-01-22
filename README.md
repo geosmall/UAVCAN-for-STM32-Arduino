@@ -8,4 +8,8 @@ It has been tested on STM32F103C8 development board, using Arduino IDE v1.8.5 wi
 
 Libcanard example pictorial schematic:
 
-![Optional Text](https://raw.githubusercontent.com/geosmall/UAVCAN-for-STM32-Arduino/master/images/UAVCAN_NODE_FreeRTOS_sch.jpg")
+![Optional Text](https://raw.githubusercontent.com/geosmall/UAVCAN-for-STM32-Arduino/master/images/UAVCAN_NODE_FreeRTOS_sch.jpg)
+
+
+Libcanard example running on UAVCAN GUI:
+![Optional Text](https://raw.githubusercontent.com/geosmall/UAVCAN-for-STM32-Arduino/master/images/Screen_Capture.png)
