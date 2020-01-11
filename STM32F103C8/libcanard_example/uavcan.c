@@ -141,7 +141,8 @@ void spinCanard(void)
   if(HAL_GetTick() < spin_time + CANARD_SPIN_PERIOD) return;    // rate limiting
   
   spin_time = HAL_GetTick();
-  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_13);   
+  //HAL_GPIO_TogglePin(GPIOB, GPIO_PIN_11);
+  digitalWrite(LED_BUILTIN, !digitalRead(LED_BUILTIN));
     
   uint8_t buffer[UAVCAN_NODE_STATUS_MESSAGE_SIZE];    
   static uint8_t transfer_id = 0;                               // This variable MUST BE STATIC; refer to the libcanard documentation for the background
