@@ -5,7 +5,7 @@
 #define APP_VERSION_MAJOR                                           99
 #define APP_VERSION_MINOR                                           99
 #define APP_NODE_NAME                                               "MGeo.node.demo"
-#define GIT_HASH                                                    0xBADC0FFE
+#define GIT_HASH                                                    0xDEADBEEF
 
 #define UAVCAN_GET_NODE_INFO_DATA_TYPE_SIGNATURE                    0xee468a8121c46a9e
 #define UAVCAN_GET_NODE_INFO_DATA_TYPE_ID                           1

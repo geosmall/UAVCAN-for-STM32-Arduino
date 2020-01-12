@@ -20,6 +20,8 @@ void setup() {
   pinMode(PwmOutputPin, OUTPUT);
   pinMode(TestOutputPin, OUTPUT);
 
+  digitalWrite(LED_BUILTIN, HIGH);
+
   uint32_t ret = DWT_Delay_Init();
 
   MX_CAN_Init();
