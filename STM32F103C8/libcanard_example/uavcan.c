@@ -16,6 +16,13 @@ int16_t rc_pwm[RC_NUM_CHANNELS] = {0};
 
 //////////////////////////////////////////////////////////////////////////////////////
 
+param_t * getParamByIndex(uint16_t index);
+param_t * getParamByName(uint8_t * name);
+
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
 bool shouldAcceptTransfer(const CanardInstance* ins,
                           uint64_t* out_data_type_signature,
                           uint16_t data_type_id,
