@@ -1,6 +1,6 @@
 #include "Arduino.h"
 #include "stm32yyxx_ll.h"
-#include "src/dwt_stm32_delay/dwt_stm32_delay.h"
+//#include "src/dwt_stm32_delay/dwt_stm32_delay.h"
 #include "can.h"
 
 
@@ -22,7 +22,7 @@ void setup() {
 
   digitalWrite(LED_BUILTIN, HIGH);
 
-  uint32_t ret = DWT_Delay_Init();
+//  uint32_t ret = DWT_Delay_Init();
 
   MX_CAN_Init();
 

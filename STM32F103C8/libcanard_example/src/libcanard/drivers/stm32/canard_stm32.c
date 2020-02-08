@@ -6,9 +6,10 @@
  * Author: Pavel Kirienko <pavel.kirienko@zubax.com>
  */
 
+#include "Arduino.h"
 #include "canard_stm32.h"
 #include "_internal_bxcan.h"
-#include "src/dwt_stm32_delay/dwt_stm32_delay.h"
+//#include "src/dwt_stm32_delay/dwt_stm32_delay.h"
 
 
 #if CANARD_STM32_USE_CAN2
@@ -136,7 +137,8 @@ static bool waitMSRINAKBitStateChange(volatile const CanardSTM32CANType* const b
         }
 
         // Sleep 1 millisecond
-        DWT_Delay_us(1000);
+        // DWT_Delay_us(1000);
+        delayMicroseconds(1000);
     }
 
     return false;
