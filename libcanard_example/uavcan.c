@@ -1,7 +1,6 @@
 #include "src/libcanard/canard.h"
 #include "src/libcanard/drivers/stm32/canard_stm32.h"
 #include "uavcan.h"
-//#include "stm32_def.h"
 
 
 #define CANARD_SPIN_PERIOD    500

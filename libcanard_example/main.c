@@ -1,7 +1,5 @@
 #include "Arduino.h"
 #include "stm32yyxx_ll.h"
-//#include "src/dwt_stm32_delay/dwt_stm32_delay.h"
-#include "can.h"
 
 
 const int PwmOutputPin = PA0;         // PA_0,D46/A0 -- USES TIM2
@@ -24,7 +22,7 @@ void setup() {
 
 //  uint32_t ret = DWT_Delay_Init();
 
-  MX_CAN_Init();
+  CAN_HW_Init();
 
   uavcanInit();
 
