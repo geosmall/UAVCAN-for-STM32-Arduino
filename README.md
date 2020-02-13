@@ -1,6 +1,6 @@
 # UAVCAN-for-STM32-Arduino
 
-Forum discussion https://www.stm32duino.com/viewtopic.php?f=10&t=99
+For questions or issues please see forum discussion https://www.stm32duino.com/viewtopic.php?f=10&t=99
 
 UAVCAN for STM32 Arduino is a simple UAVCAN libcanard (https://github.com/UAVCAN/libcanard) example for the Arduino IDE (https://www.arduino.cc/) running on STM32 development boards.
 
